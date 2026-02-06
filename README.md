@@ -2,42 +2,41 @@
 [![Status](https://img.shields.io/badge/Status-Live-success.svg)](https://sovernbaezit.github.io/weatherwise-galactic-station/weatherwiseapp-beginner/) 
 [![Build](https://img.shields.io/badge/Build-Beginner--Friendly-blue.svg)]()
 
-Aplikasi ramalan cuaca futuristik dengan tema **Galactic Deep Space** dan efek **Glassmorphism**. Dibuat untuk memberikan pengalaman visual luar biasa sambil memantau kondisi atmosfer di berbagai kota di seluruh galaksi.
+**Weatherwise App** adalah platform pemantauan cuaca berbasis web yang menggabungkan presisi data meteorologi dengan estetika visual modern. Mengusung konsep **Glassmorphism**, aplikasi ini dirancang untuk memberikan pengalaman pengguna yang imersif dan informatif dalam memantau kondisi atmosfer di berbagai belahan Bumi secara *real-time*.
 
 ---
 
-## 📸 Preview Galaksi
-Berikut adalah tampilan antarmuka aplikasi dalam berbagai skenario lokasi:
+## 📸 Preview Aplikasi
+Berikut adalah dokumentasi antarmuka aplikasi saat menampilkan data cuaca dari berbagai koordinat lokasi:
 
-| Washington View | Jakarta View | Kalimantan View |
+| Washington, D.C. | Jakarta, ID | Kalimantan, ID |
 | :---: | :---: | :---: |
 | ![Washington](weatherwiseapp-beginner/washingtoncity.png) | ![Jakarta](weatherwiseapp-beginner/jakartacity1.png) | ![Kalimantan](weatherwiseapp-beginner/kalimantantimurcity2.png) |
 
 ---
 
-## 🚀 Fitur Utama
-- **Real-time Data**: Mengambil data cuaca langsung dari OpenWeatherMap API.
-- **Glassmorphism UI**: Desain modern menggunakan efek kaca transparan dan blur (`backdrop-filter`).
-- **Galactic Animation**: Latar belakang bintang yang bergerak secara dinamis menggunakan CSS Animations.
-- **Responsive Design**: Tampilan yang tetap cantik di berbagai ukuran layar.
+## 🚀 Fitur Unggulan
+* **Integrasi Data Real-time**: Menyajikan informasi cuaca akurat melalui sinkronisasi langsung dengan OpenWeatherMap API.
+* **Antarmuka Glassmorphism**: Desain UI futuristik yang memanfaatkan efek transparansi dan blur (`backdrop-filter`) untuk tampilan yang elegan.
+* **Animasi Dinamis**: Latar belakang bertema ruang angkasa dengan pergerakan bintang yang halus menggunakan CSS Keyframes.
+* **Adaptasi Responsif**: Tampilan yang dioptimalkan untuk memastikan kenyamanan pengguna di berbagai ukuran layar, dari desktop hingga perangkat seluler.
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
-1. **HTML5**: Struktur dasar aplikasi.
-2. **CSS3**: Styling tingkat lanjut seperti Radial Gradients, Webkit Clips, dan Keyframe Animations.
-3. **JavaScript (ES6)**: Logika pengambilan data API (Fetch) dan manipulasi DOM.
-4. **Google Fonts**: Menggunakan *Orbitron* untuk kesan futuristik dan *Poppins* untuk keterbacaan yang bersih.
+## 🛠️ Stack Teknologi
+1.  **HTML5**: Membangun struktur semantik aplikasi yang bersih dan terorganisir.
+2.  **CSS3**: Implementasi desain tingkat lanjut termasuk Radial Gradients, Webkit Clips, dan animasi interaktif.
+3.  **JavaScript (ES6+)**: Mengelola pengambilan data secara asinkron menggunakan *Fetch API* dan memperbarui informasi cuaca secara dinamis.
+4.  **Google Fonts**: Menggunakan font *Orbitron* untuk nuansa teknologi dan *Poppins* untuk keterbacaan yang maksimal.
 
 ---
 
-## 📂 Struktur Folder Proyek
+## 📂 Organisasi Proyek
+Repositori ini disusun dengan struktur yang memudahkan pemeliharaan:
 ```text
 weatherwiseapp-beginner/
-├── index.html
-├── style.css
-├── script.js
-├── washingtoncity.png
-├── jakartacity1.png
-└── kalimantantimurcity2.png
-README.md
+├── index.html       # Struktur dasar dan elemen UI
+├── style.css        # Gaya visual dan animasi galaksi
+├── script.js        # Logika aplikasi dan integrasi API
+└── *.png            # Dokumentasi preview visual aplikasi
+README.md            # Dokumentasi lengkap proyek
