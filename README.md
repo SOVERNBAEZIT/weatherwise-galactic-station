@@ -1,8 +1,8 @@
 # 🌌 Weatherwise App - Galactic Edition
-[![Status](https://img.shields.io/badge/Status-Live-success.svg)]() 
+[![Status](https://img.shields.io/badge/Status-Live-success.svg)](https://sovernbaezit.github.io/weatherwise-galactic-station/weatherwiseapp-beginner/) 
 [![Build](https://img.shields.io/badge/Build-Beginner--Friendly-blue.svg)]()
 
-Aplikasi ramalan cuaca futuristik dengan tema **Galactic Deep Space** dan efek **Glassmorphism**. Dibuat khusus untuk memberikan pengalaman visual yang luar biasa sambil memantau kondisi atmosfer di berbagai kota di seluruh galaksi.
+Aplikasi ramalan cuaca futuristik dengan tema **Galactic Deep Space** dan efek **Glassmorphism**. Dibuat untuk memberikan pengalaman visual luar biasa sambil memantau kondisi atmosfer di berbagai kota di seluruh galaksi.
 
 ---
 
@@ -11,7 +11,7 @@ Berikut adalah tampilan antarmuka aplikasi dalam berbagai skenario lokasi:
 
 | Washington View | Jakarta View | Kalimantan View |
 | :---: | :---: | :---: |
-| ![Washington Preview](washingtoncity.png) | ![Jakarta Preview](jakartacity1.png) | ![Kalimantan Preview](kalimantantimurcity2.png) |
+| ![Washington](weatherwiseapp-beginner/washingtoncity.png) | ![Jakarta](weatherwiseapp-beginner/jakartacity1.png) | ![Kalimantan](weatherwiseapp-beginner/kalimantantimurcity2.png) |
 
 ---
 
@@ -31,13 +31,13 @@ Berikut adalah tampilan antarmuka aplikasi dalam berbagai skenario lokasi:
 
 ---
 
-## 📂 Struktur Folder
+## 📂 Struktur Folder Proyek
 ```text
 weatherwiseapp-beginner/
-├── images/                  # Folder berisi aset ikon cuaca
-├── washingtoncity.png       # Screenshot Preview Washington
-├── jakartacity1.png         # Screenshot Preview Jakarta
-├── kalimantantimurcity2.png # Screenshot Preview Kalimantan
-├── index.html               # File struktur utama
-├── style.css                # File desain (Bebas Error & Warning!)
-└── script.js                # File logika JavaScript
+├── index.html
+├── style.css
+├── script.js
+├── washingtoncity.png
+├── jakartacity1.png
+└── kalimantantimurcity2.png
+README.md
