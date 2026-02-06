@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galactic Weather Station</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="space-background"></div>
+
+    <div class="container">
+        <div class="search-box">
+            <i class='bx bxs-map-pin'></i>
+            <input type="text" placeholder="Scanning coordinates...">
+            <button class="bx bx-radar" id="search-btn"></button>
+        </div>
+
+        <div class="weather-box">
+            <img src="https://cdn-icons-png.flaticon.com/512/4834/4834523.png" alt="weather-icon" id="weather-img">
+            <p class="temperature">--<span>°C</span></p>
+            <p class="description">Orbital Standby</p>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity">
+                <i class='bx bx-water'></i>
+                <div class="text">
+                    <span class="humidity-val">--%</span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class='bx bx-wind'></i>
+                <div class="text">
+                    <span class="wind-val">--Km/h</span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
